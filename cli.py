@@ -211,7 +211,7 @@ def main():
                         help="Whether to perform evaluation")
     parser.add_argument('--priming', action='store_true',
                         help="Whether to use priming for evaluation")
-    parser.add_argument("--eval_set", choices=['dev', 'test'], default='dev',
+    parser.add_argument("--eval_set", choices=['dev', 'test'], default='test',
                         help="Whether to perform evaluation on the dev set or the test set")
 
     args = parser.parse_args()

@@ -1,7 +1,8 @@
 results/*
 __pycache__/*
 pet/__pycache__/*
-
+run_pet2.sh
+job_pet2.sh
 .ipynb_checkpoints/*
 
 slurm/*

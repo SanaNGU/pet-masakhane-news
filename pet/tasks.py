@@ -867,7 +867,7 @@ class MasakhaneNewsProcessor(DataProcessor):
         self.TRAIN_FILE_NAME = "train.tsv"
 
         # Set this to the name of the file containing the dev examples
-        self.DEV_FILE_NAME = "dev.tsv"
+        self.DEV_FILE_NAME = "test.tsv"
 
         # Set this to the name of the file containing the test examples
         self.TEST_FILE_NAME = "test.tsv"
@@ -970,3 +970,5 @@ PROCESSORS[MasakhaneNewsProcessor().TASK_NAME] = MasakhaneNewsProcessor
 
 # optional: if you have to use verbalizers that correspond to multiple tokens, uncomment the following line
 # TASK_HELPERS[MyTaskDataProcessor.TASK_NAME] = MultiMaskTaskHelper
+
+#CUSTOM PROCESSOR

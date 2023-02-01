@@ -704,3 +704,4 @@ class MasakhaneNewsPVP(PVP):
 
 # register the PVP for this task with its name
 PVPS[MasakhaneNewsPVP.TASK_NAME] = MasakhaneNewsPVP
+
